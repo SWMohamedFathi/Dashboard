@@ -1,0 +1,56 @@
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-md-4 col-sm-6 col-12" *ngFor="let options of chartOptions" >
+      <div class="card  d-flex align-items-left text-white">
+        <app-line-chart [chartOptions]="options"></app-line-chart>
+      </div>
+    </div>
+    <!-- <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">        
+        <app-line-chart [chartOptions]="lineareaOptions"></app-line-chart>
+      </div> -->
+    </div>
+    <!-- <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">
+        <app-line-chart [chartOptions]="linestackedOptions"></app-line-chart>
+
+      </div> -->
+    <!-- </div>
+  </div> -->
+  <!-- <div class="row">
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card  text-white">
+        <app-line-chart [chartOptions]="pieChartOption"></app-line-chart>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">        
+        <app-line-chart [chartOptions]="doungutchartOption"></app-line-chart>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">
+        <app-line-chart [chartOptions]="dateSetOption"></app-line-chart>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">
+        <app-line-chart [chartOptions]="scatterOption"></app-line-chart>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">        
+        <app-line-chart [chartOptions]="barOption"></app-line-chart>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+      <div class="card text-white">
+        <app-line-chart [chartOptions]="Areaoptions"></app-line-chart>
+
+      </div>
+    </div>
+  </div> -->
+
+</div>
