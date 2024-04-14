@@ -5,9 +5,11 @@ import { AppComponent } from './app.component';
 import { ChartsModule } from './charts/charts.module';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { EChartsOption } from 'echarts';
+import { MapComponent } from './map/map.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapComponent
 
   ],
   imports: [
